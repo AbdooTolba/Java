@@ -1,20 +1,30 @@
 /**
  * test
  */
+package sheetOOP;
+
+import java.io.IOException;
+
 public class sheet {
 
-    public static void main(String[] args) {
+    /**
+     * @param args
+     * @throws IOException
+     * @throws InterruptedException
+     */
+    public static void main(String[] args) throws InterruptedException, IOException {
 
-
+        
         // أمسح الكومنت على حسب الكلاس اللي عايز يتم تجربته
-
+        new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor(); // عشان يمسح الشاشة من الكلام أمسحه  السطر ده
+        
         // testCircle();
         // testRectangle();
         // testEmployee();
         // testInvoiceItem();
         // testAccount();
         // testAuthor();
-        // testBook();
+        testBook();
         // testCylinder();
         
     }

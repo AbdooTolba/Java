@@ -1,3 +1,4 @@
+package sheetOOP;
 
 // make class InoviceItem String id String desc int qty double unitPrice and make 2 objects of this class first with id "A001" and desc "Hammer" and qty 10 and unitPrice 5.5 and second with id "A002" and desc "Nail" and qty 100 and unitPrice 0.5 and print the details of each item and then print both objects
 public class InvoiceItem {
