@@ -26,10 +26,10 @@ public class sheet {
         // testAuthor();
         // testBook();
         // testCylinder();
+        // testStaff();
+        testAnimals(); // will test all methods in Cat.java, Dog.java which extended from Animal.java and BigDog.java which extended from Dog.java
         
     }
-
-
 
     
     // function make 2 objects of Circle class first with radius 1 and second with radius 25 and print the area and circumference of each circle and then print both objects
@@ -154,6 +154,27 @@ public class sheet {
         
     }
 
+    // function to make 2 objects of class Staff and Student and Person وكملها بقى لما تروح
+
+    // function to make 1 object of classes Dog, Cat, BigDog and use all methods inside and 
+    public static void testAnimals() {
+        Cat cat = new Cat("debo");
+        Dog dog = new Dog("hamburger");
+        Dog dog1 = new Dog("CheesBurger");
+        BigDog bigDog = new BigDog("sha7tMa7t");
+        BigDog bigDog2 = new BigDog("ma7tSha7t");
+        System.out.print(" Cat: ");
+        cat.greets();
+        System.out.print("\n dog: ");
+        dog.greets();
+        System.out.print("\n dog to another dog: ");
+        dog.greets(dog1);
+        System.out.print("\n big dog: ");
+        bigDog.greets();
+        System.out.print("\n big dog to another dog : ");
+        bigDog.greets(dog1);
+        System.out.print("\n big dog to another big dog : ");
+        bigDog.greets(bigDog2);
+    }
+
 }
-
-
